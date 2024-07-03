@@ -12,7 +12,7 @@ public class mergeSort {
         }
     }
     public static void merSort(int arr[],int si,int ei){
-        if(si<=ei)
+        if(si>=ei)
         {
             return;
         }
@@ -39,7 +39,7 @@ public class mergeSort {
             k++;
         }
 
-        while (i<mid)
+        while (i<=mid)
         {
             tempArr[k++] = arr[i++];
         }
