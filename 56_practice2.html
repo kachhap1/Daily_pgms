@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title2</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h3>Registration Form</h3>
+    <form action="registration">
+        <div>
+            <input type="text" name="fname" id="fname" placeholder="First Name">
+            <input type="text" name="lname" id="lname" placeholder="Last Name"></div>
+        <br>
+        <div>Please select gender
+            <select name="gender" id="gender">
+            <option value="m" >Male</option>
+            <option value="f">Female</option>
+            <option value="o">Others</option>
+        </select></div>
+        
+        <label id="agree">Do you agree to all of service?</label>
+        <input type="checkbox" name="agree" id="agree">Yes, I agreee
+        <br>
+        <button>Register</button>
+    </form><hr>
+
+
+    <form action="/action2">
+        <div>
+            <label for="username">Username :</label>
+            <input type="text" id="username" placeholder="Enter Name" name="username">
+        </div><br>
+        <div>
+            <label for="password">Password :</label>
+            <input type="password" id="password" placeholder="Enter password">
+        </div><br>
+        Age :
+        <input type="number" placeholder="Enter age">
+        DOB :
+        <input type="date" placeholder="Enter date of birth">
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">Does something</button>
+    </form>
+    <hr>
+
+    <form action="https://www.youtube.com/results?">
+        <input type="text" placeholder="search in youtube" name="search_query">
+        <button>Search</button>
+    </form>
+    <hr>
+
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="Search in google" name="q">
+        <button>Search</button>
+    </form>
+
+
+</body>
+</html>
