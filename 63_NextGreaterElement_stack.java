@@ -1,6 +1,5 @@
 import java.util.*;
 public class NextGreaterElement {
-
     public static void nextGreater(int[] arr)
     {
         int n= arr.length;
